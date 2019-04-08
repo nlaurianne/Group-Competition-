@@ -1,36 +1,37 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+  <html>
+  <head>
+    <title>DOS and DON'TS</title>
+  </head>
 
-<title>DOs and DONTs</title>
+    <body>
+      <body bgcolor="pink">
+      <h1>DOs</h1>
 
-</head>
+  <p>
+    <ul>
+      <tt>
+      <li><b>PASSPORTS PASSPORTS PASSPORTS.</b> Make sure your passport is valid for 6 months after the date you intend to leave the country. You will need to have at least 2 blank pages for every country you intend to travel to.</li>
+      <li><b>VISAS.</b> Check this <a href="www.projectvisa.com/regions/Africa"<website</a> for details</li>
+      <li><b>CLOTHES.</b> A lot of people don't realise how cold it gets in the evenings. You will most likely spend a lot of time outdoors so take some warm clothes as well. One word. LAYERS.</li>
+      <li><b>SUNCREAM.</b> Typically a difficult one to find when you're there, so take some with you.</li>
+      <li><b>TORCH.</b> Power cuts are quite frequent.</li>
+      <li><b>LIP BALM.</b> An essential to protect against the dry African air, the wind in your face and the insane amount of dust during dry season.</li>
+    </ul>
+  </tt>
+  </p>
 
-<body>
-<h1>DOs</h1>
+  <h1>DONTs</h1>
 
-<p>
-<ul>
-<li>PASSPORTS PASSPORTS PASSPORTS. Make sure your passport is valid for 6 months after the date you intend to leave the country. You will need to have at least 2 blank pages for every country you intend to travel to.</li>
-<li>VISAS. Check this <a href="">link to website</a> for details</li>
-<li>CLOTHES. A lot of people don't realise how cold it gets in the evenings. You will most likely spend a lot of time outdoors so take some warm clothes as well. One word. LAYERS.</li>
-<li>SUNCREAM. Typically a difficult one to find when you're there, so take some with you.</li>
-<li>TORCH. Power cuts are quite frequent.</li>
-<li>LIP BALM. An essential to protect against the dry African air, the wind in your face and the insane amount of dust during dry season.</li>
-</ul>
-</p>
+  <p>
+    <ul>
+      <li>BE A CREATURE OF HABIT. Try as many local cuisines as you can.</li>
+      <li>BE CARELESS WITH YOUR BELONGINGS. Awareness please.</li>
+      <li>DRIVING. Don't drive around with your doors unlocked and your windows down</li>
+      <li>WANDERING AROUND. Fine to do, just not in unknown areas. Stick to areas you know are safe</li>
+      <li>CUT YOUR TRIP TOO SHORT. You could spend months exploring and barely scratch the surface</li>
+    </ul>
+  </p>
 
-<h2>DONTs</h2>
-<p>
-<ul>
-<li>BE A CREATURE OF HABIT. Try as many local cuisines as you can.</li>
-<li>BE CARELESS WITH YOUR BELONGINGS. Awareness please.</li>
-<li>DRIVING. Don't drive around with your doors unlocked and your windows down</li>
-<li>WANDERING AROUND. Fine to do, just not in unknown areas. Stick to areas you know are safe</li>
-<li>CUT YOUR TRIP TOO SHORT. You could spend months exploring and barely scratch the surface</li>
-</ul>
-</p>
-
-
-
-</body>
+    </body>
+    </html>
