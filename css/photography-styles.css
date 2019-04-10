@@ -1,4 +1,6 @@
 body {
+  color: rgb(65,75,86);
+  margin: 0px;
   font-family: Helvetica;
   background-color: yellow;
 }
@@ -7,7 +9,9 @@ body {
   color: blue;
 }
 
-.subtitle {}
+.subtitle {
+
+}
 
 .pagetitle {
   text-align: center;
