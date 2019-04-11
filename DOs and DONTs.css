@@ -1,4 +1,17 @@
+<head>
+<link rel="stylesheet" type="text/css" href="mystyle.css">
+<style>
+
 body {
+  background-color: pink;
+}
+h1 {
+  color:red;
+  margin left: 20px;
+}
+</style>
+</head>
+
 background-image: url("adventure.jpg");
 color: rgb(65,75,86);
 font family: sans-serif;
