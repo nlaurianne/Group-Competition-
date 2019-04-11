@@ -1,7 +1,12 @@
 <head>
-<link rel="stylesheet" type="text/css" href="mystyle.css">
+<link rel="stylesheet" type="text/css" href="DOs and DONTs.css">
 <style>
 body {
+  background-color: rgb(245,245,220);
+  background-image:
+  url("/cameroon 1.jpg");
+}
+div {
   background-color: rgb(245,245,220);
 }
 h1 {
