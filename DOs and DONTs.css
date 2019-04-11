@@ -3,8 +3,8 @@
 <style>
 body {
   background-color: rgb(245,245,220);
-  background-image:
-  url("/cameroon 1.jpg");
+font-family: Helvetica;
+font-size: 5em;
 }
 div {
   background-color: rgb(245,245,220);
@@ -14,7 +14,11 @@ div {
 h1 {
   color:red;
   margin left: 20px;
+  text-align: center;
+  font-sixe: 10em;
 }
+
+
 a:link {
   color: rgb(0,0,0);
   background-color: transparent;
