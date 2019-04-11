@@ -8,13 +8,15 @@ body {
 }
 div {
   background-color: rgb(245,245,220);
+  min-height: 50vh;
+  width: 70vw;
 }
 h1 {
   color:red;
   margin left: 20px;
 }
 a:link {
-  color: green;
+  color: rgb(0,0,0);
   background-color: transparent;
   text-decoration: none;
 }
