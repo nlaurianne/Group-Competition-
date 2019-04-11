@@ -1,42 +1,158 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>First site</title>
-    <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
-  </head>
-    <body>
+<html>
+<title>Emotional Oranges</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Karma", sans-serif}
+.w3-bar-block .w3-bar-item {padding:20px}
+</style>
+<body>
 
-      <div>
-  <h1> AFRICA EXPRESS</h1>
-  <h2>Welcome to Africa's friendliest travel community!</h2>
-  <img src="sunset.jpg" alt="sunset image" width="200px"><!-- image of a duck -->
+<!-- Sidebar (hidden by default) -->
+<nav class="w3-sidebar w3-bar-block w3-card w3-top w3-xlarge w3-animate-left" style="display:none;z-index:2;width:40%;min-width:300px " id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()"
+  class="w3-bar-item w3-button">Close Menu</a>
+  <a href="about.html" onclick="w3_close()" class="w3-bar-item w3-button">About</a>
+  <a href="destinations.html" onclick="w3_close()" class="w3-bar-item w3-button">Destinations</a>
+  <a href="photography.html" onclick="w3_close()" class="w3-bar-item w3-button">Photography</a>
+  <a href="DosandDonts.html" onclick="w3_close()" class="w3-bar-item w3-button">Tips</a>
+  <a href="experiences.html" onclick="w3_close()" class="w3-bar-item w3-button">Experiences</a>
+  <a href="#newsletter" onclick="w3_close()" class="w3-bar-item w3-button">Newsletter</a>
+  <a href="#getintouch" onclick="w3_close()" class="w3-bar-item w3-button">Get In Touch</a>
+  </nav>
+
+<!-- Top page -->
+<div class="w3-top">
+  <div class="w3-white w3-xlarge" style="max-width:1200px;margin:auto">
+    <div class="w3-button w3-padding-16 w3-left" onclick="w3_open()">☰</div>
+    <div class="w3-right w3-padding-16"><font color=blue>Contact Us</font></div>
+    <div class="w3-center w3-padding-16"><b><font size="20" color=black>AFRICA EXPRESS</b></font></div>
+  </div>
 </div>
-  <div>
-  <p> Africa is a vast continent with a total of 53 countries, and has the highest lingustic diversity in the world.
-     </p>
-<p> DESTINATIONS
-</p>
-  <ol>
 
-    <li>HTML is cool</li>
-  <li>CSS is cooler</li>
-  <li>JS is the best</li>
-</ol>
+<!-- !PAGE CONTENT! -->
+<div class="w3-main w3-content w3-padding" style="max-width:1200px;margin-top:100px">
+
+  <!-- First Photo Grid-->
+  <div class="w3-row-padding w3-padding-16 w3-center" id="travel">
+    <div class="w3-quarter">
+      <img src="destinations.jpg" alt="destinationscover" style="width:100%"height="200%">
+      <h3>DESTINATIONS</h3>
+      <p>Discover the world's second largest continent, Africa, bounded by the mediterrean, and red seas and Indian and Atlantic oceans.</p>
+      <p>Click now and get started on a specific destination</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="photography.jpg" alt="photographycover" style="width:100%" height="250%">
+      <h3>PHOTOGRAPHY</h3>
+      <p>These images are a photographic collection of different journeys across the African continent  </p>
+      <p>It portrays beauty in an extraordinary way with a glimpse of iconic landscapes,animals and its inhabitants</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="tips.jpg" alt="tipscover" style="width:80%"height="100%">
+      <h3>TIPS</h3>
+      <p>The dos and the don'ts; spending within your budget; all about flights and accomodation; food guids; the ultimate must try?</p>
+      <p>Don't miss out on this setion</p>
+    </div>
+  <div class="w3-quarter">
+    <img src="experiences.jpg" alt="experiencescover" style="width:110%" height="200%">
+    <h3>EXPERIENCES</h3>
+    <p>Follow our adventurers on their travel stories</p>
+    <p>Everything you need to know before you get to your destination</p>
+  </div>
 </div>
-<div>
-  <h3><em>So what do you need to create a website?</em></h3>
 
-  <p>Not much!</p>
-  <ul>
+  <!-- Second Photo Grid-->
 
-  <li>A computer (which is always a good start)</li>
-  <li>A text editor (I am using atom)</li>
-  <li>A web browser (I use chrome)</li>
-  and some HTML, CSS and JS files
-</ul>
+  <div class="w3-row-padding w3-padding-16 w3-center">
+    <div class="w3-quarter w3-center">
+    <img src="dosomegood.jpg" alt="charitycover" style="width:100%" height="200%">
+    <h3>DO SOME GOOD</h3>
+    <p>Insipiring Africa's Futures is a charity set up by Africa Express with the aim of encouraging young African carers to have ambition in pursuing higher education.</p>
+    <p>"Education is the most powerful weapon you can use to change the world" - Nelson Mandela</p>
+    <p>DONATE NOW</p>
+  </div>
+  <div class="w3-quarter">
+      <img src="newsletter.jpg" alt="newslettercover" style="width:100%"height="200%">
+      <h3>NEWS LETTER</h3>
+      <p>Sign up here to our monthly newsletter.</p>
+      <p>Exclusive deals, tips and all you need to know for your adventure </p>
+    </div>
+    <div class="w3-quarter">
+      <img src="getintouch.jpg" alt="contactcover" style="width:100%"height="200%">
+      <h3>GET IN TOUCH</h3>
+      <p>Contact us here</p>
+      <p>Email: <u><font color=blue>africaexpress@contactus.com</u></font></p>
+        <p>Phone: <u><font color=blue>+440001115555423</u></font></p>
+          <p>Live Chat:<u><font color=blue>Speak to an advisor now</u></font></p>
+    </div>
+    </div>
+
+
+  <!-- Pagination -->
+  <div class="w3-center w3-padding-32">
+    <div class="w3-bar">
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">«</a>
+      <a href="#" class="w3-bar-item w3-black w3-button">1</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">2</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">3</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">4</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">»</a>
+    </div>
+  </div>
+
+  <hr id="about">
+
+
+  <!-- Footer -->
+  <footer class="w3-row-padding w3-padding-32">
+    <div class="w3-third">
+      <p><font color=black>Copyright©2019 AfricaExpress | All Rights Reserved</p></font>
+    </div>
+
+    <div class="w3-third">
+      <h3>Social Media</h3>
+      <ul class="w3-ul w3-hoverable">
+        <li class="w3-padding-16">
+          <img src="iglogo.jpg" class="w3-left w3-margin-right" style="width:50px">
+          <span class="w3-large">Instagram</span><br>
+          <span>Connect</span>
+        </li>
+        <li class="w3-padding-16">
+          <img src="facebook.jpg" class="w3-left w3-margin-right" style="width:50px">
+          <span class="w3-large">Facebook</span><br>
+          <span>Connect</span>
+        </li>
+      </ul>
+    </div>
+
+    <div class="w3-third w3-serif">
+      <h3>POPULAR TAGS</h3>
+      <p>
+        <span class="w3-tag w3-black w3-margin-bottom">TravelBlog</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Africa</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">WestAfrica</span>
+        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Travel</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Cameroon</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">CentralAfrica</span>
+        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">AfricaExpress</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Ethiopia</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">SouthernAfrica</span>
+        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Morroco</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Kenya</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">NorthAfrica</span>
+        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Seychelles</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">EastAfrica</span>
+      </p>
+    </div>
+  </footer>
+
+<!-- End page content -->
 </div>
-  <p>Follow my progress on github</p>
 
-  </body>
+<script>
+// Script to open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+}
+
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+
+</body>
 </html>
