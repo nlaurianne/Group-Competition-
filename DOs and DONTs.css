@@ -5,19 +5,32 @@ body {
   background-color: rgb(245,245,220);
 font-family: Helvetica;
 font-size: 5em;
+margin: 0 20px;
+
 }
 div {
   background-color: rgb(245,245,220);
   min-height: 50vh;
   width: 70vw;
+  margin: 10 10px;
+  width: 100%;
+
+
 }
+
+
 h1 {
   color:red;
   margin left: 20px;
   text-align: center;
   font-sixe: 10em;
 }
-
+h2 {
+  color:blue;
+  margin-left: 20px;
+  text-align: center;
+  font size: 5em
+}
 
 a:link {
   color: rgb(0,0,0);
